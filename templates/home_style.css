@@ -307,7 +307,7 @@ input:checked + .slider:before {
             padding: 20px;
             width: 100vw;
             color: white;
-            background-color: #3A6D8C;
+
             text-align: center;
         }
 
@@ -317,7 +317,7 @@ input:checked + .slider:before {
         }
         .dashboard iframe{
             width:100%;
-            height:500px;
+            height:600px;
         }
         .dashboard video {
             position: absolute;
@@ -360,8 +360,8 @@ input:checked + .slider:before {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: #3A6D8C;
-    color: white;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
     position: relative; /* For animations to be relative to the section */
     overflow: hidden; /* Ensures no overflow during animation */
 }
@@ -417,7 +417,7 @@ input:checked + .slider:before {
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 20px;
             padding: 20px;
-            background: #6A9AB0;
+            background: #fafdff;
         }
 
         .service-card {
@@ -445,7 +445,7 @@ input:checked + .slider:before {
         .service-card button {
             margin-top: 10px;
             padding: 10px 20px;
-            background: #001F3F;
+            background: #FFA500;
             border: none;
             color: white;
             border-radius: 4px;
@@ -453,7 +453,7 @@ input:checked + .slider:before {
         }
 
         .service-card button:hover {
-            background: #FFA500;
+            background: #d9971d;
         }
 
         /* About Section */
@@ -467,17 +467,13 @@ input:checked + .slider:before {
     font-size: 2.5em;
     margin-bottom: 20px;
 }
-.about p,i {
-    font-size: 1.2em;
-    line-height: 1.8; /* Adjusts space between lines of text */
-    margin-bottom: 20px; /* Adds space between paragraphs */
-}
+
         /* Footer */
         footer {
             background: #001F3F;
             color: white;
             text-align: center;
-            padding: 20px;
+            /* padding: 20px; */
         }
 
         footer a {
@@ -488,6 +484,7 @@ input:checked + .slider:before {
         footer a:hover {
             text-decoration: underline;
         }
+        
         /* Styling for Contact Section */
 /* Styling for Contact Section */
 .contact {
